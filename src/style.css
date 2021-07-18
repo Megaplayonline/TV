@@ -1,0 +1,317 @@
+@import url("https://fonts.googleapis.com/css?family=Google+Sans:300,400,500,700,800,900&display=swap");
+
+body{
+	font-family: 'Google Sans', sans-serif;
+  background-color: #ffffff;
+  font-display: swap;
+}
+
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  #url_lista{
+    font-size:14px;
+    font-weight: bold;
+}
+#label_url_lista{
+    font-size:10px;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.container{
+	width: 95%;
+}
+.row .col {
+    padding: 0px;
+}
+.card .card-content {
+    padding: 5px;
+}
+}
+
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+  /* For tablets: */
+#url_lista{
+    font-size:21px;
+    font-weight: bold;
+}
+#label_url_lista{
+    font-size:14px;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column-reverse;
+}
+}
+
+@media only screen and (min-width: 993px) {
+  /* For desktop: */
+.brand-logo{
+	padding-left: 20px !important;
+}
+
+#url_lista{
+    font-size:24px;
+    font-weight: bold;
+}
+#label_url_lista{
+    font-size:18px;
+}
+.container{
+	width: 90%;
+}
+}
+
+nav .nav-wrapper{
+	background-color: #1B1C1D;
+}
+
+footer.page-footer{
+	background-color: #1B1C1D;
+	color: #ffffff;
+}
+
+.light, footer.page-footer .footer-copyright{
+	background-color: #272727;
+}
+
+.btn{
+    margin-top: 10px;
+		margin-left: 0px !important;
+    margin-right: 0px !important;
+    border-radius: 10px;
+    background-color: #2185D0;
+    z-index: 0;
+    letter-spacing: .5px;
+    font-weight: 500;
+}
+
+[type="checkbox"].filled-in:checked+span:not(.lever):after {
+    border: 2px solid #2185D0;
+    background-color: #2185D0;
+}
+
+.btn:hover, .btn:focus{
+	background: #1678c2;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+    color: #039be5;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating):hover{
+    color: #039be5;
+}
+
+#abrir_chat.btn{
+	background: #ED1751;
+}
+
+#abrir_chat.btn:hover{
+	background: #ED1751;
+}
+
+.card .card-title{
+	color: #000000;
+	font-weight: bold;
+}
+
+.input-field .prefix{
+	color: #666666;
+}
+
+.input-field .prefix.active{
+	color: #000000;
+}
+
+[type="radio"]:checked+label:after{
+	background-color: #666666;
+	border: 2px #666666;
+}
+
+.picker__weekday-display{
+	background-color: #005C84;
+}
+
+.picker__date-display{
+	background-color: #0077A0;
+}
+
+.picker__close, .picker__today{
+	color: #0077A0;
+}
+
+.picker__day--selected, .picker__day--selected:hover, .picker--focused .picker__day--selected{
+	background-color: #0077A0;
+}
+
+.picker__day.picker__day--today{
+	color: #0077A0;
+}
+
+.tabs .indicator{
+	background-color: #F62D51;
+	height: 5px;
+}
+
+.tabs .tab a{
+	color: #FFFFFF;
+	background-color: #272727;
+}
+
+.tabs .tab a:hover{
+	color: #F62D51;
+	background-color: #272727;
+}
+
+.progress .indeterminate{
+	background-color: #7AB800;
+}
+
+.progress{
+	background-color: #D1D1D1;
+}
+h1{
+    font-size: 30px!important;
+    color: #000000;
+}
+h2{
+    font-size: 30px!important;
+    color: #000000;
+}
+h2>i.material-icons{
+    color: #034E92;
+}
+#sidenav-overlay{
+    position: relative;
+}
+ul.side-nav.right-aligned{
+    margin-top: 65px;
+}
+
+div.modal.open{
+	max-height: 83%;
+}
+
+div.modal.open{
+	max-height: 83%;
+}
+
+#chat-modal{
+	height:400px;
+	width: 350px;
+	right: 10px;
+	left: unset;
+}
+
+i.material-icons.mas_canal, i.material-icons.menos_canal{
+	color: #7AB800;
+	cursor:pointer;
+}
+
+.dropdown-content li>a, .dropdown-content li>span {
+	color: #272727;
+	font-size: 13px;
+}
+
+a {
+	color: #1678c2;
+	font-size: 15px;
+}
+
+nav ul a {
+	font-size: 13px;
+}
+
+nav ul a:hover {
+    background-color: #272727;
+    color: #9e9e9e;
+}
+
+.card{
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+border-radius: 8px;
+opacity: 1;
+}
+
+.switch label input[type=checkbox]:checked+.lever:after {
+    background-color: #034E92;
+}
+
+.switch label input[type=checkbox]:checked+.lever {
+    background-color: #088ECA;
+}
+
+input.valid:not([type]), input.valid:not([type]):focus, input.valid[type=text]:not(.browser-default), input.valid[type=text]:not(.browser-default):focus, input.valid[type=password]:not(.browser-default), input.valid[type=password]:not(.browser-default):focus, input.valid[type=email]:not(.browser-default), input.valid[type=email]:not(.browser-default):focus, input.valid[type=url]:not(.browser-default), input.valid[type=url]:not(.browser-default):focus, input.valid[type=time]:not(.browser-default), input.valid[type=time]:not(.browser-default):focus, input.valid[type=date]:not(.browser-default), input.valid[type=date]:not(.browser-default):focus, input.valid[type=datetime]:not(.browser-default), input.valid[type=datetime]:not(.browser-default):focus, input.valid[type=datetime-local]:not(.browser-default), input.valid[type=datetime-local]:not(.browser-default):focus, input.valid[type=tel]:not(.browser-default), input.valid[type=tel]:not(.browser-default):focus, input.valid[type=number]:not(.browser-default), input.valid[type=number]:not(.browser-default):focus, input.valid[type=search]:not(.browser-default), input.valid[type=search]:not(.browser-default):focus, textarea.materialize-textarea.valid, textarea.materialize-textarea.valid:focus, .select-wrapper.valid>input.select-dropdown {
+    border-bottom: 1px solid #088ECA;
+    -webkit-box-shadow: 0 1px 0 0 #088ECA;
+    box-shadow: 0 1px 0 0 #088ECA;
+}
+
+input:not([type]):focus.valid ~ label, input[type=text]:not(.browser-default):focus.valid ~ label, input[type=password]:not(.browser-default):focus.valid ~ label, input[type=email]:not(.browser-default):focus.valid ~ label, input[type=url]:not(.browser-default):focus.valid ~ label, input[type=time]:not(.browser-default):focus.valid ~ label, input[type=date]:not(.browser-default):focus.valid ~ label, input[type=datetime]:not(.browser-default):focus.valid ~ label, input[type=datetime-local]:not(.browser-default):focus.valid ~ label, input[type=tel]:not(.browser-default):focus.valid ~ label, input[type=number]:not(.browser-default):focus.valid ~ label, input[type=search]:not(.browser-default):focus.valid ~ label, textarea.materialize-textarea:focus.valid ~ label {
+    color: #088ECA;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #034E92;
+    -webkit-box-shadow: 0 1px 0 0 #034E92;
+    box-shadow: 0 1px 0 0 #034E92;
+}
+
+input:not([type]):focus:not([readonly])+label, input[type=text]:not(.browser-default):focus:not([readonly])+label, input[type=password]:not(.browser-default):focus:not([readonly])+label, input[type=email]:not(.browser-default):focus:not([readonly])+label, input[type=url]:not(.browser-default):focus:not([readonly])+label, input[type=time]:not(.browser-default):focus:not([readonly])+label, input[type=date]:not(.browser-default):focus:not([readonly])+label, input[type=datetime]:not(.browser-default):focus:not([readonly])+label, input[type=datetime-local]:not(.browser-default):focus:not([readonly])+label, input[type=tel]:not(.browser-default):focus:not([readonly])+label, input[type=number]:not(.browser-default):focus:not([readonly])+label, input[type=search]:not(.browser-default):focus:not([readonly])+label, textarea.materialize-textarea:focus:not([readonly])+label {
+    color: #034E92;
+}
+
+.feature-icon i {
+    color: #F62D51;
+    font-size: 50px;
+    line-height: 96px;
+}
+
+.feature-icon {
+    height: 100px;
+    width: 100px;
+    border: 0px solid #F62D51;
+    border-radius: 1000px;
+    text-align: center;
+    margin: 40px auto 0;
+}
+
+.feature-title {
+    padding-top: 20px;
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.feature-description {
+    padding-top: 10px;
+    text-align: center;
+    color: #6c747f;
+}
+
+.feature-button {
+    text-align: center;
+}
+
+.sign-up-btn {
+    margin-top: 10px;
+    width: 100%;
+    max-width: 240px;
+    border-radius: 100px;
+    background-color: #F62D51;
+    z-index: 0;
+    letter-spacing: .5px;
+    font-weight: 500;
+}
+
+.LazyImage {
+  animation: lazy-kf 5s;
+}
+
+@keyframes lazy-kf{
+    from {opacity:0;}
+    to {opacity:1;}
+}
